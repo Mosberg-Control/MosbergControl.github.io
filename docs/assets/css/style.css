@@ -1,6 +1,6 @@
 html
 {
-    background-color: #00000048;
+    border: thick solid #000000;
     font-family: Fotales;
     font-weight: 600;
     height: max-content;
@@ -9,6 +9,7 @@ html
 img
 {
     border-radius: 25px;
+    border: thick solid #000000;
     box-shadow: #00000060 4px 4px 3px;
     margin: 10px;
     max-width: 512px;
