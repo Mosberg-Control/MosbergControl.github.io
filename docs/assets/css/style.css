@@ -6,98 +6,107 @@ html
     height: max-content;
 }
 
+img
+{
+    border-radius: 25px;
+    box-shadow: #00000060 4px 4px 3px;
+    margin: 10px;
+    max-width: 512px;
+    height: fit-content;
+}
+
 body
 {
-    border: thin groove #fbff00;
     border-radius: 25px;
     position: absolute;
     left: 0%;
     right: 0%;
+    background: linear-gradient(to bottom, #FF000060, #ff7f0030, #ffff0060, #00ff0030, #0000ff60, #4b008230, #9400d360);
 }
 
 header
 {
-    border: thin groove #00aeff;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     font-size: 64px;
     text-align: center;
-    text-shadow: #00000060 4px 4px 2px;
+    text-shadow: #00000060 6px 6px 3px;
 }
 
 footer
 {
-    border: thin groove #ff0000;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
     font-size: 32px;
     text-align: center;
-    text-shadow: #00000060 4px 4px 2px;
+    text-shadow: #00000060 4px 4px 3px;
 }
 
 button
 {
-    border: thin groove #00000000;
+    border: thick solid #00000000;
     border-radius: 10px;
     color: #000000;
     cursor: pointer;
     font-size: 20px;
     font-weight: 600;
-    text-shadow: #00000060 4px 4px 2px;
     width: 80px;
 }
 
 .gptsBtn button
 {
-    border: thin groove #ff000020;
+    border: thin solid #00000090;
     background-color: #ff000090;
     position: absolute;
     font-size: 20px;
     border-radius: 10px;
-    right: 180px;
+    right: 190px;
     top: 50px;
+    box-shadow: #00000060 4px 4px 3px;
 }
 
 .gptsImg, .gptsImg img
 {
     display: flex;
     overflow: hidden;
-    border: thin groove #ff000030;
+    border: thick solid #ff7f0030;
 }
 
 .waifuBtn button
 {
-    border: thin groove #00ff0020;
+    border: thin solid #00000090;
     background-color: #00ff0090;
     position: absolute;
     font-size: 20px;
     border-radius: 10px;
-    right: 95px;
+    right: 100px;
     top: 50px;
+    box-shadow: #0000ff20 4px 4px 3px;
 }
 
 .waifuImg, .waifuImg img
 {
     display: flex;
     overflow: hidden;
-    border: thin groove #00ff0030;
+    border: thick solid #ffff0060;
 
 }
 
 .nsfwBtn button
 {
-    border: thin groove #0000ff20;
+    border: thin solid #00000090;
     background-color: #0000ff90;
     position: absolute;
     font-size: 20px;
     border-radius: 10px;
     right: 10px;
     top: 50px;
+    box-shadow: #00000060 4px 4px 3px;
 }
 
 .nsfwImg, .nsfwImg img
 {
     display: flex;
     overflow: hidden;
-    border: thin groove #0000ff30;
+    border: thick solid #00ff0030;
 }
