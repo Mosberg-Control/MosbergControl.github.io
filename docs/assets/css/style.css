@@ -12,7 +12,8 @@ img
     box-shadow: #00000060 4px 4px 3px;
     margin: 10px;
     max-width: 512px;
-    height: fit-content;
+    max-height: 512px;
+    height: 512px;
 }
 
 body
@@ -85,7 +86,7 @@ button
 }
 
 .waifuImg, .waifuImg img
-{
+{  
     display: flex;
     overflow: hidden;
     border: thick solid #ffff0060;
